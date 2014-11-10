@@ -24,3 +24,5 @@ let g:indent_guides_guide_size = 1
 let g:vim_json_syntax_conceal = 0
 
 let g:UltiSnipsExpandTrigger="<tab>"
+au FileType gitcommit startinsert
+au FileType gitrebase startinsert
