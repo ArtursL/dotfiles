@@ -9,6 +9,8 @@ set shiftwidth=4
 set list
 set nowrap
 set mouse=a
+set guifont=Consolas:h10
+set guioptions-=T
 
 syntax on
 filetype plugin indent on
