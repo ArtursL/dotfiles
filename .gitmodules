@@ -46,3 +46,6 @@
 [submodule ".vim/bundle/vim-dockerfile"]
 	path = .vim/bundle/vim-dockerfile
 	url = https://github.com/honza/dockerfile.vim
+[submodule ".vim/bundle/python-mode"]
+	path = .vim/bundle/python-mode
+	url = https://github.com/klen/python-mode.git
