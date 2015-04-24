@@ -49,3 +49,6 @@
 [submodule ".vim/bundle/python-mode"]
 	path = .vim/bundle/python-mode
 	url = https://github.com/klen/python-mode.git
+[submodule ".vim/bundle/sudo"]
+	path = .vim/bundle/sudo
+	url = https://github.com/vim-scripts/sudo.vim.git
