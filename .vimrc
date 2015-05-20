@@ -31,3 +31,4 @@ let g:UltiSnipsExpandTrigger="<tab>"
 au FileType gitcommit startinsert
 au FileType gitrebase startinsert
 let g:solarized_termtrans = 1
+let g:tmuxline_powerline_separators = 0
