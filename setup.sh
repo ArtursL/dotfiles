@@ -6,7 +6,7 @@ set -e
 REPO="https://github.com/splenetic/dotfiles.git"
 DOTDIR="$HOME/.dotfiles"
 if [ ! -d "$DOTDIR" ]; then
-    git clone $REPO "$DOTDIR"
+    git clone --recursive $REPO "$DOTDIR"
 elif [ "$(cd "$DOTDIR" && git config --get remote.origin.url)" != "${REPO}" ]; then
     >&2 echo "Unknown .dotfiles folder exists."
     >&2 echo "Please delete and try again."
