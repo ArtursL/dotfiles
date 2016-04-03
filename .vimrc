@@ -9,7 +9,7 @@ set shiftwidth=4
 set list
 set nowrap
 set mouse=a
-set guifont=Consolas:h10
+set guifont="Source Code Pro 9"
 set guioptions-=T
 
 syntax on
