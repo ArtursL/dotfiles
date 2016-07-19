@@ -72,7 +72,7 @@
 
 xterm*termName: xterm-256color
 XTerm*locale: true
-XTerm*faceName: DejaVu Sans Mono
+XTerm*faceName: Hack
 XTerm*faceSize: 10
 xterm*allowWindowOps: true
 xterm*allowFontOps: true
@@ -85,3 +85,24 @@ Xft.rgba:       rgb
 Xft.hinting:    true
 Xft.hintstyle:  hintslight
 xterm*selectToClipBoard: true
+
+! urxvt stuff:
+! do not scroll with output
+URxvt*scrollTtyOutput: false
+! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+URxvt*scrollWithBuffer: true
+! scroll back to the bottom on keypress
+URxvt*scrollTtyKeypress: true
+
+! fix scrolling in less
+URxvt.secondaryScreen: 1
+URxvt.secondaryScroll: 0
+
+URxvt.font: xft:Hack:size=10
+URxvt.letterSpace: -1
+URxvt.depth: 32
+
+URxvt.throughColor: S_base03
+
+URxvt.scrollBar: false
+URxvt.scrollstyle: plain
