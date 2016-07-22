@@ -3,7 +3,7 @@
 # Run with `curl https://raw.githubusercontent.com/splenetic/dotfiles/master/setup.sh | bash`
 
 set -e
-REPO="https://github.com/splenetic/dotfiles.git"
+REPO="https://github.com/ArtursL/dotfiles.git"
 DOTDIR="$HOME/.dotfiles"
 if [ ! -d "$DOTDIR" ]; then
     git clone --recursive $REPO "$DOTDIR"
