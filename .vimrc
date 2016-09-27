@@ -14,7 +14,7 @@ set guioptions-=T
 
 syntax on
 filetype plugin indent on
-set background=dark
+set background=light
 colorscheme solarized
 
 let g:indent_guides_enable_on_vim_startup = 1
