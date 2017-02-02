@@ -11,6 +11,11 @@ set nowrap
 set mouse=a
 set guifont="Hack Regular 9"
 set guioptions-=T
+set showcmd
+set cursorline
+set wildmenu
+set lazyredraw
+set hlsearch
 
 syntax on
 filetype plugin indent on
@@ -32,3 +37,5 @@ au FileType gitcommit startinsert
 au FileType gitrebase startinsert
 let g:solarized_termtrans = 1
 let g:tmuxline_powerline_separators = 0
+
+let g:session_autoload = 'no'
