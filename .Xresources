@@ -71,7 +71,7 @@ Xft.antialias:  true
 Xft.rgba:       rgb
 Xft.hinting:    true
 Xft.hintstyle:  hintslight
-xterm*selectToClipBoard: true
+XTerm*selectToClipboard: true
 
 ! urxvt stuff:
 ! do not scroll with output
