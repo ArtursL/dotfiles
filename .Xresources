@@ -70,7 +70,9 @@ Xft.dpi:        96
 Xft.antialias:  true
 Xft.rgba:       rgb
 Xft.hinting:    true
+Xft.autohint: false
 Xft.hintstyle:  hintslight
+Xft.lcdfilter: lcddefault
 XTerm*selectToClipboard: true
 
 ! urxvt stuff:
@@ -86,7 +88,7 @@ URxvt.secondaryScreen: 1
 URxvt.secondaryScroll: 0
 
 URxvt.font: xft:Hack:size=10
-URxvt.letterSpace: -1
+ URxvt.letterSpace: -2
 URxvt.depth: 32
 
 URxvt.throughColor: S_base03
