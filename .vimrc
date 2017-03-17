@@ -38,4 +38,14 @@ au FileType gitrebase startinsert
 let g:solarized_termtrans = 1
 let g:tmuxline_powerline_separators = 0
 
-let g:session_autoload = 'no'
+
+" Fix mouse resizing in tmux:
+set mouse+=a
+if &term =~ '^screen'
+    " tmux knows the extended mouse mode
+    set ttymouse=xterm2
+endif
+
+" CtrlP settings
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
